@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+body {
+  font-family: "Audiowide", sans-serif;
+}
+body {
+    background-color: rgb(255, 55, 0);
+}
+
+.container {
+    background-color: aqua;
+    text-align: center;
+    margin:0 auto;
+    border: 1px solid black;
+    padding: 15px;
+    background-image: url('https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-1/468449162_10161014685123175_9114725640013001117_n.jpg?stp=c433.94.1182.1182a_dst-jpg_s480x480_tt6&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_ohc=wXhWGQ5dtt8Q7kNvwHVJM21&_nc_oc=AdkBMc7pvMBs5-U-2BZt7xWu5yRzylUUb7MAXN8RVDhlaN07h2XBhqPOoicaATM-9Qo&_nc_zt=24&_nc_ht=scontent-sea1-1.xx&_nc_gid=TVYGuGuHw53NYniWpQEvXA&oh=00_Afd-Zj8K-vQVjYTpTUO6y3__njJSp_cQO-bK5-yEg43p3Q&oe=6905A3EE');
+}
+.nav {
+    list-style: none;
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.copy {
+    text-align: center;
+    background-color: turquoise;
+}
+
+#span1 {
+    color:brown;
+
+}
+
+#span2 {
+    font-size: 50px;
+}

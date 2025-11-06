@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anush | JS Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+ 
+    <h1>Today, we will learn JavaScript.</h1>
+    <h2>How do we do on click events?</h2>
+    <p>Click <a href="https://www.google.com" target="_blank" onclick="alert('PLEASE SAVE MONKEY')">HERE</a> to search Google.</p>
+ 
+    <h2>How do we do math with JS?</h2>
+    <p>What is 5+6</p>
+    <button onclick="document.getElementById('add').innerHTML=5+6"> Click here for the answer!</button>
+    <p id="add"></p>
+ 
+    <h2>How can we change text with JS?</h2>
+    <button onclick="document.getElementById('change-text'). innerHTML= 'Hooray! You did it!'">Try it!</button>
+    <p id="change-text">This text will change when we click the button.</p>
+ 
+    <h2>We can also add the date and time to our pages.</h2>
+    <button onclick="document.getElementById('date'). innerHTML=Date()">Click me for the date and time.</button>
+    <p id="date"></p>
+   
+    <h2>How do we make a function with JS?</h2>
+    <p>Let's use a function to add text onto our page below.</p>
+    <button onclick="pFun()">Click me to run a function</button>
+     <p id="p-fun"></p>
+
+<h2>Monkey needs saving pretty please</h2>
+<button onclick="savingMethod()">Click to enter saving method</button>
+<p id="saving-method"></p>
+
+    <h2>Monkey needs questions using JS in external document</h2>
+    <button onclick="askQuestion()">Click for a question from monkey</button>
+    <p id="question"></p>
+ 
+    <script>
+        alert("Monkey gonna come for You")
+        alert("U scared yet")
+        alert("Monkey Almost There")
+        alert("3")
+        alert("2")
+        alert("1")
+        alert("Monkey Pranked You 🐒🐒🐒")
+    function pFun() {
+        var p= document.getElementById('p-fun');
+        p.innerHTML='You just ran a function!'
+        p.style.color='red';
+        p.style.fontSize= '30px'
+    }
+    
+    function savingMethod() {
+        var nameReturn = document.getElementById('saving-method')
+        var name = prompt('Please enter saving method below')
+        if (name =='') {
+            alert('Please try again')
+        } else {
+        nameReturn.innerHTML = 'You killed monkey with ' +name+ '😭🩸🩸🐒🐒'
+        }
+    }
+    </script>
+   
+</body>
+</html>
